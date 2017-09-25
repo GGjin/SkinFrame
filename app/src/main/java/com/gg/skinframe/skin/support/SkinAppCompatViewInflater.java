@@ -46,7 +46,7 @@ import java.util.Map;
  * functionality for any inflated widgets. This include theme inheritance from it's parent.
  */
 
-public class SkinAppCompatViewInflater  {
+public class SkinAppCompatViewInflater {
 
 
 

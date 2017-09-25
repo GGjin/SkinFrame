@@ -37,6 +37,11 @@ public class SkinResource {
         }
     }
 
+    /**
+     * 通过名字获取drawable
+     * @param name
+     * @return
+     */
     public Drawable getDrawableByName(String name) {
         try {
             int resId = mSkinResources.getIdentifier(name, "drawable", mPackageName);
@@ -47,6 +52,11 @@ public class SkinResource {
         return null;
     }
 
+    /**
+     * 通过名字获取color
+     * @param name
+     * @return
+     */
     public ColorStateList getColorByName(String name) {
         try {
             int resId = mSkinResources.getIdentifier(name, "color", mPackageName);
@@ -56,5 +66,6 @@ public class SkinResource {
         }
         return null;
     }
+
 
 }
